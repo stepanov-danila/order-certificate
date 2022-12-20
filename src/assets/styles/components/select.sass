@@ -1,0 +1,42 @@
+.myl-multiple-select
+  &.MuiInputBase-root
+    .MuiSelect-root
+      [data-theme=fancy] &
+        height: auto
+        padding: 5px 40px 5px 14px
+  &-list
+    display: flex
+    max-width: 100%
+    height: 100%
+    flex-wrap: wrap
+    min-height: 44px
+    margin: -2px
+  &-item
+    display: flex
+    align-items: center
+    align-self: center
+    background: #f8f7f7
+    border-radius: 6px
+    flex-shrink: 0
+    padding: 4px 8px
+    margin: 2px
+    &__text
+      margin: 0
+      font-size: 16x
+      line-height: 20px
+      white-space: nowrap
+    &__delete
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      width: 20px
+      height: 20px
+      border-radius: 50%
+      color: #fff
+      margin: 0 0 0 5px
+      transition: background 0.3s
+      &:hover
+        background: #d6d3d3
+      svg
+        height: 14px
+        width: 14px
